@@ -131,3 +131,102 @@ body::before {
     border-color: rgba(26, 205, 255, 0.5) !important;
     box-shadow: 0 0 12px rgba(26, 205, 255, 0.08);
 }
+
+[class*="privateChannels_"],
+[class*="privateChannels_"] [class*="scroller_"],
+[class*="privateChannels_"] [class*="searchBar_"],
+[class*="privateChannels_"] [class*="content_"],
+[class*="privateChannels_"] [class*="channel_"] {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+[class*="chat_"],
+[class*="chatContent_"],
+[class*="content_"],
+[class*="messagesWrapper_"],
+[class*="scroller_"],
+[class*="scrollerContent_"] {
+    background-color: transparent !important;
+}
+
+[class*="title_"],
+[class*="children_"],
+[class*="toolbar_"] {
+    background-color: transparent !important;
+}
+
+[class*="form_"],
+[class*="channelBottomBarArea_"] {
+    background-color: transparent !important;
+}
+
+[class*="channelTextArea_"] {
+    background: rgba(0, 0, 0, 0.75) !important;
+    border: 1px solid rgba(26, 205, 255, 0.15) !important;
+    border-radius: 12px !important;
+}
+
+[class*="profilePanel_"],
+[class*="userPanel_"],
+[class*="inner_"] {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+[class*="privateChannels_"] [class*="channel_"]:hover {
+    background-color: rgba(26, 205, 255, 0.08) !important;
+}
+
+[class*="home_"],
+[class*="homeWrapper_"],
+[class*="container_"],
+[class*="peopleColumn_"],
+[class*="peopleList_"],
+[class*="tabBody_"],
+[class*="nowPlayingColumn_"],
+[class*="applicationStore_"],
+[class*="friendsTable_"],
+[class*="friendsTableBody_"],
+[class*="scroller_"] {
+    background-color: transparent !important;
+}
+
+[class*="header_"],
+[class*="headerBar_"] {
+    background-color: transparent !important;
+}
+
+[class*="peopleListItem_"] {
+    background-color: rgba(0, 0, 0, 0.25) !important;
+    border-radius: 8px;
+}
+
+[class*="peopleListItem_"]:hover {
+    background-color: rgba(26, 205, 255, 0.08) !important;
+}
+
+[class*="tabBar_"] {
+    background-color: transparent !important;
+}
+[class*="nowPlayingColumn_"] {
+    background: transparent !important;
+}
+
+[class*="nowPlayingColumn_"] [class*="itemCard_"],
+[class*="nowPlayingColumn_"] [class*="outer_"],
+[class*="nowPlayingColumn_"] [class*="body_"],
+[class*="nowPlayingColumn_"] [class*="section_"] {
+    background: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(14px) saturate(120%) !important;
+    -webkit-backdrop-filter: blur(14px) saturate(120%) !important;
+    border: 1px solid rgba(26, 205, 255, 0.10) !important;
+    border-radius: 12px !important;
+}
+
+[class*="nowPlayingColumn_"] [class*="itemCard_"]:hover {
+    background: rgba(0, 0, 0, 0.50) !important;
+    border-color: rgba(26, 205, 255, 0.25) !important;
+}
+
+[class*="nowPlayingColumn_"] [class*="section_"] {
+    box-shadow: none !important;
+}
