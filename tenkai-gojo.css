@@ -1,0 +1,133 @@
+/**
+ * @name T E N K A I
+ * @author DeadOverflow
+ * @version 1.0.0
+ */
+
+
+html,
+body,
+#app-mount {
+    background: transparent !important;
+}
+
+#app-mount > *,
+#app-mount [class*="app_"],
+#app-mount [class*="bg_"],
+#app-mount [class*="layers_"],
+#app-mount [class*="layer_"],
+#app-mount [class*="base_"],
+#app-mount [class*="container_"],
+#app-mount [class*="sidebar_"],
+#app-mount [class*="chat_"] {
+    background-color: transparent !important;
+}
+
+/* DeadOverflow Animated Wallpaper */
+
+body {
+    background: transparent !important;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)
+        ),
+        url("https://i.ibb.co/sd8fxW4N/output.webp");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    pointer-events: none;
+    z-index: -1;
+}
+
+[class*="chatContent_"],
+[class*="chat_"],
+[class*="content_"],
+[class*="messagesWrapper_"],
+[class*="scroller_"],
+[class*="scrollerContent_"],
+[class*="messageListItem_"],
+[class*="container_"] {
+    background-color: transparent !important;
+}
+
+[class*="messageList_"],
+[class*="scrollerInner_"] {
+    background: transparent !important;
+}
+
+[class*="title_"] {
+    background-color: transparent !important;
+}
+
+[class*="message_"]:hover {
+    background-color: rgba(26, 205, 255, 0.045) !important;
+}
+
+[class*="form_"],
+[class*="channelBottomBarArea_"] {
+    background-color: transparent !important;
+}
+
+[class*="channelTextArea_"] {
+    background-color: rgba(2, 13, 26, 0.75) !important;
+    border: 1px solid rgba(26, 205, 255, 0.15);
+    border-radius: 12px;
+}
+
+[class*="guilds_"] {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+[class*="sidebar_"] {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+[class*="panels_"] {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+[class*="form_"],
+[class*="channelBottomBarArea_"] {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+[class*="channelTextArea_"] {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+[class*="guilds_"],
+[class*="sidebar_"],
+[class*="panels_"],
+[class*="form_"] {
+    backdrop-filter: blur(10px);
+}
+
+[class*="channelTextArea_"] {
+    background: rgba(0, 0, 0, 0.75) !important;
+    border: 1px solid rgba(26, 205, 255, 0.15) !important;
+    border-radius: 12px !important;
+    backdrop-filter: blur(10px);
+}
+
+[class*="scrollableContainer_"] {
+    background: transparent !important;
+}
+
+[class*="placeholder_"] {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+[class*="channelTextArea_"]:focus-within {
+    border-color: rgba(26, 205, 255, 0.5) !important;
+    box-shadow: 0 0 12px rgba(26, 205, 255, 0.08);
+}
